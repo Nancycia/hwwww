@@ -181,7 +181,7 @@ t_score = qt(p=alpha/2, df=freedom,lower.tail=F)
 # Calculating lower bound and upper bound
 lower_bound <- mean_value - t_score * se
 upper_bound <- mean_value + t_score * se
-
+#Name  "Lintong Li"
 # Print the confidence interval
 print(c(lower_bound,upper_bound))
 #(-39779720,194947329)
