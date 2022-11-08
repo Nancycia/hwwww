@@ -1,4 +1,4 @@
-
+#Name "Lintong Li"
 ## The purpose of this R script is to get you started on the
 ## midterm project. 
 
