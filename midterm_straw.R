@@ -1,4 +1,4 @@
-
+#Name "Lintong Li"
 ## The purpose of this R script is to get you started on the
 ## midterm project. 
 
@@ -170,9 +170,9 @@ strawb_organic_ca <- strawb_organic %>% filter(State == "CALIFORNIA"& Value != "
 # Compute the size
 n <- length(strawb_organic_ca$Value)
 # Find the mean
-mean <- strawb_organic_ca$Value[2]
+mean <- strawb_organic_ca$Value[1]
 # Find the standard error
-se <- 13.5
+se <- 13.7
 alpha = 0.05
 freedom = n - 1
 t_score = qt(p=alpha/2, df=freedom,lower.tail=F)
